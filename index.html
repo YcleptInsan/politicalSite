@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script src="js/jquery-3.2.1.js"></script>
-		<script src="js/scripts.js"></script>
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/styles.css">
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/scripts.js"></script>
 		<title>Political Site</title>
 	</head>
 	<body>
@@ -17,8 +17,8 @@
 
 		<!-- Below are the forms for the questions being asked in
 		our celebery site  -->
+		<form id="all">
 		<div class="form-group">
-			<div class="show/hide1">
 
 			<p>Pick a Number between 1-100</p>
 
@@ -26,10 +26,12 @@
 			<input type="text" id="Q1" class="form-control" aria-describedby="helpBlock" >
 			<span id="Q1-text-below" class="help-block">Thanks!</span>
 
-			</div>
+
+
 		</div>
 		<br>
 		<br>
+		<!-- Question 2 -->
 		<div class="form-group">
 			<div class="show/hide2">
 				<p>Between the colors Black, Purple, and Blue. Which do you like best?</p>
@@ -40,6 +42,7 @@
 		</div>
 		<br>
 		<br>
+		<!-- Question 3 -->
 		<div class="form-group">
 			<div class="show/hide3">
 				<p>Legalize Marijuana? (Yes or No?)</p>
@@ -47,11 +50,16 @@
 				<input type="text" id="Q3" class="form-control" aria-describedby="helpBlock">
 			</div>
 		</div>
-1		<br>
 		<br>
-		<!-- Button Container -->
+		<br>
+			<!-- Button -->
 		<div class="button-container">
-		<button id="submit" type="button" name="button">Find Match</button>
+			<button id="submit" type="submit" name="button">Find Match</button>
+		</div>
+	</form>
+		<div id="output">
+
+		</div>
 	</div>
 
 
@@ -71,8 +79,14 @@
 		  <input type="text" class="form-control" id="inputError1">
 		</div>
 	</div>
-		<div class="output">
+	<div class="Image1">
 
-		</div>
+	</div>
+	<div class="Image2">
+
+	</div>
+	<div class="Image2">
+
+	</div>
 	</body>
 </html>
