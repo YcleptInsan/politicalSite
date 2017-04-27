@@ -18,29 +18,42 @@
 		<!-- Below are the forms for the questions being asked in
 		our celebery site  -->
 		<div class="form-group">
-			<p>Who do you like better Obama or Trump?</p>
+			<div class="show/hide1">
+
+			<p>Pick a Number between 1-100</p>
 
 			<label class="sr-only" for="Q1"></label>
 			<input type="text" id="Q1" class="form-control" aria-describedby="helpBlock" >
 			<span id="Q1-text-below" class="help-block">Thanks!</span>
 
+			</div>
 		</div>
 		<br>
 		<br>
 		<div class="form-group">
-			<p>Between the colors Black, Purple, and Blue. Which do you like best?</p>
+			<div class="show/hide2">
+				<p>Between the colors Black, Purple, and Blue. Which do you like best?</p>
 
-			<label class="sr-only" for="Q2"></label>
-			<input type="text" id="inputHelpBlock2" class="form-control" aria-describedby="helpBlock">
+				<label class="sr-only" for="Q2"></label>
+				<input type="text" id="inputHelpBlock2" class="form-control" aria-describedby="helpBlock">
+			</div>
 		</div>
 		<br>
 		<br>
 		<div class="form-group">
-			<p>Legalize Marijuana? (Yes or No?)</p>
-
-			<label class="sr-only" for="inputHelpBlock"></label>
-			<input type="text" id="Q3" class="form-control" aria-describedby="helpBlock">
+			<div class="show/hide3">
+				<p>Legalize Marijuana? (Yes or No?)</p>
+				<label class="sr-only" for="inputHelpBlock"></label>
+				<input type="text" id="Q3" class="form-control" aria-describedby="helpBlock">
+			</div>
 		</div>
+1		<br>
+		<br>
+		<!-- Button Container -->
+		<div class="button-container">
+		<button id="submit" type="button" name="button">Find Match</button>
+	</div>
+
 
 
 		<!-- Below are form states of successs and error

@@ -8,6 +8,13 @@
 #Q1-text-below {
 	display: none;
 }
-.Toggle-states {
+#success, #error {
 	display: none;
+}
+button{
+	margin: 0 auto;
+}
+.button-container {
+
+	text-align: center;
 }
